@@ -6,7 +6,7 @@
             <field name="inherit_id" ref="base.view_partner_form"/>
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='vat']" position="attributes">
-                    <attribute name="string">VAT</attribute>
+                    <attribute name="string">NIT</attribute>
                 </xpath>
             </field>
         </record>
@@ -17,7 +17,7 @@
             <field name="inherit_id" ref="base.view_partner_short_form"/>
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='vat']" position="attributes">
-                    <attribute name="string">VAT</attribute>
+                    <attribute name="string">NIT</attribute>
                 </xpath>
             </field>
         </record>

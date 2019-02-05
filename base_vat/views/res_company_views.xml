@@ -9,7 +9,7 @@
                 <field name="vat_check_vies" help="If this checkbox is ticked, you will not be able to save a contact if its VAT number cannot be verified by the European VIES service." />
             </field>
             <xpath expr="//field[@name='vat']" position="attributes">
-                <attribute name="string">VAT</attribute>
+                <attribute name="string">NIT</attribute>
             </xpath>
         </field>
     </record>
